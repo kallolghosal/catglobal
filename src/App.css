@@ -681,4 +681,11 @@ html, body, h1,h2,h3,h4,h5{
   .container {
     padding: 0px;
   }
+  .footer-contactus .container {
+    width: 100%;
+    padding: 0px;
+  }
+  .organisation-body .organisation-single .organisation-details-1 {
+    padding: 15px 12px;
+  }
 }
