@@ -1,12 +1,20 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import Navbar from '../components/Navbar';
+import Contactus from '../components/contactus';
+import Footer from '../components/mainfooter';
+import ImpactBanner from "../components/ImpactBanner";
+import '../App.css';
 
 const Overview = () => {
     return (
-        <Container>
-            <h2>Overview</h2>
-            
-        </Container>
+        <>
+        <div className="main-header" style={{ backgroundColor: '#000' }}>
+			<Navbar />
+		</div>
+        <ImpactBanner />
+        <Contactus />
+        <Footer />
+        </>
     );
 };
 
