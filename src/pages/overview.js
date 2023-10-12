@@ -1,9 +1,9 @@
 import React from "react";
-import Contactus from '../components/contactus';
 import Footer from '../components/mainfooter';
 import ImpactBanner from "../components/ImpactBanner";
 import '../App.css';
 import Navreview from "../components/Navreview";
+import WhatWeDo from "../components/whatwedo";
 
 const Overview = () => {
     return (
@@ -12,7 +12,7 @@ const Overview = () => {
 			<Navreview />
 		</div>
         <ImpactBanner />
-        <Contactus />
+        <WhatWeDo />
         <Footer />
         </>
     );

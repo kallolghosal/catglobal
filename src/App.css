@@ -89,9 +89,9 @@ html, body, h1,h2,h3,h4,h5{
   width: 100%;
   color: #fff;
   margin: 0 auto;
-  font-size: 21px;
+  font-size: 18px;
   max-width: 630px;
-  line-height: 31px;
+  line-height: 26px;
   padding-top: 31px;
   text-shadow: 2px 2px rgba(0,0,0,.5);
 }
@@ -669,6 +669,62 @@ html, body, h1,h2,h3,h4,h5{
   height: 100%;
   object-fit: cover;
 }
+.globeBg {
+  width: 100%;
+  height: auto;
+  background-image: url('../src/img/globe-dotted.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.globeBg p {
+  width: 80%;
+  margin: 20px auto 40px auto;
+  font-size: 20px;
+}
+.globeBg div {
+  display: flex;
+  flex-direction: row;
+}
+.globeBg img {
+  width: 100%;
+  height: auto;
+}
+.globeBg .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.directorsBox {
+  background-color: #4F3475;
+  color: #fff;
+  padding: 30px 0;
+}
+.directorsBox h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.directorsBox .container {
+  padding: 10px 10px;
+}
+.directorsBox .col-md-4 {
+  min-height: 650px;
+}
+.directorsBox .container img {
+  margin-bottom: 18px;
+}
+.directorsBox button {
+  background-color: transparent;
+  border-color: #fff;
+}
+.directorsBox button:hover {
+  background-color: #fff;
+  color: #4F3475;
+}
 
 @media (max-width: 576px) { 
   .flex-row-wrap{
@@ -687,5 +743,20 @@ html, body, h1,h2,h3,h4,h5{
   }
   .organisation-body .organisation-single .organisation-details-1 {
     padding: 15px 12px;
+  }
+  .fp-hero-center p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding: 10px !important;
+  }
+  .fp-hero-center img {
+    width: 140px !important;
+    height: auto;
+  }
+  .globeBg {
+    background-size: cover;
+  }
+  .container img {
+    margin-bottom: 10px;
   }
 }

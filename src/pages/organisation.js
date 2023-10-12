@@ -31,14 +31,28 @@ const Organisation = () => {
 				</div>
 			</div>
 			<div className="organisation-single flex-row-wrap">
+				<div className="organisation-featuredimage w-101">
+					<img src={require('../img/impact_catalyst.png')} alt="CMS Logo" />
+				</div>
+				<div className="organisation-details-1 w-101">
+					<h4>Impact Catalyst Foundation (ICF)</h4>
+					<h5>(established in 1994)</h5>
+					<p>is a US public charity that is part of the Catalyst Group of organisations, headquartered in India. The Catalyst Group was founded in 1994 and is a social enterprise platform focused on the promotion of the health and wealth of vulnerable communities. Our work has spanned over 25 countries across Asia and Africa in multiple domains, including health, livelihood, and climate change.</p>
+					<p><a className="directions" href="/overview" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
+				</div>
+				<div className="organisation-featuredimage w-101">
+					<img src={require('../img/build_synergies.png')} alt="CMS Image" />
+				</div>
+			</div>
+			<div className="organisation-single flex-row-wrap">
 				<div className="organisation-logo-div w-101" style={{ backgroundColor: '#E2005B' }}>
 					<img src={require('../img/swasti-logo-1.png')} alt="Swasti Logo" style={{ width: '280px' }} />
 				</div>
 				<div className="organisation-details-1 w-101">
 					<h4>Swasti</h4>
 					<h5>(established in 2004)</h5>
-					<p>A registered Society (not-for-profit), Swasti – The Health Catalyst – is a health resource centre.Which achieves public health outcomes for the marginalised, through the delivery of end-to-end solutions as well as short and long term support and facilitation, combining research and practice.</p>
-					<p>Swasti – The Health Catalyst – was envisioned as an organisation to transform the lives of the marginalised communities by ensuring their access to quality healthcare. Swasti’s work has fuelled impact by promoting healthcare access thereby contributing to poverty alleviation. Swasti have supported governments, donors and development partners to design solutions in public health. Swasti has directly reached over 400,000 people through our various initiatives.</p>
+					<p>A registered Society (not-for-profit), Swasti &ndash; The Health Catalyst &ndash; is a health resource centre.Which achieves public health outcomes for the marginalised, through the delivery of end-to-end solutions as well as short and long term support and facilitation, combining research and practice.</p>
+					<p>Swasti &ndash; The Health Catalyst &ndash; was envisioned as an organisation to transform the lives of the marginalised communities by ensuring their access to quality healthcare. Swasti&apos;s work has fuelled impact by promoting healthcare access thereby contributing to poverty alleviation. Swasti have supported governments, donors and development partners to design solutions in public health. Swasti has directly reached over 400,000 people through our various initiatives.</p>
 					<p><a className="directions" href="https://swasti.org/" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">

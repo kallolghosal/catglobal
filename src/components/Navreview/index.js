@@ -39,7 +39,7 @@ const Navreview = () => {
 					OUR TEAM
 				</NavLink>
 				<NavLink to='/contact'>
-					<Button>Conatct Us</Button>
+					<Button style={{backgroundColor:'#4F3475',border:'1px solid #9179B3'}}>Conatct Us</Button>
 				</NavLink>
 			</NavMenu>
 		</Nav>
