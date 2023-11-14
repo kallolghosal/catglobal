@@ -1,12 +1,19 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Contactus from '../components/contactus';
 import Mainfooter from '../components/mainfooter';
+import { MetaTags } from 'react-meta-tags';
 
 const Organisation = () => {
 	return (
 		<>
+		<MetaTags>
+            <title>Catalyst Global | Organisations</title>
+            <meta name="description" content="Some description." />
+            <meta property="og:title" content="MyApp" />
+            <meta property="og:image" content="path/to/image.jpg" />
+        </MetaTags>
 		<div className="main-header" style={{ backgroundColor: '#000' }}>
 			<Navbar />
 		</div>
@@ -27,7 +34,7 @@ const Organisation = () => {
 					<p><a className="directions" href="https://solvists.org/" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
-					<img src={require('../img/cms-image.jpg')} alt="CMS Image" />
+					<img src={require('../img/cms-image.jpg')} alt="CMS" />
 				</div>
 			</div>
 			<div className="organisation-single flex-row-wrap">
@@ -41,7 +48,7 @@ const Organisation = () => {
 					<p><a className="directions" href="/overview" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
-					<img src={require('../img/build_synergies.png')} alt="CMS Image" />
+					<img src={require('../img/build_synergies.png')} alt="CMS" />
 				</div>
 			</div>
 			<div className="organisation-single flex-row-wrap">
@@ -56,7 +63,7 @@ const Organisation = () => {
 					<p><a className="directions" href="https://swasti.org/" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
-					<img src={require('../img/swasti-img.jpg')} alt="Swasti Image" />
+					<img src={require('../img/swasti-img.jpg')} alt="Swasti" />
 				</div>
 			</div>
 			<div className="organisation-single flex-row-wrap">
@@ -66,11 +73,11 @@ const Organisation = () => {
 				<div className="organisation-details-1 w-101">
 					<h4>Vrutti</h4>
 					<h5>(established in 2002)</h5>
-					<p>A registered Society (not-for-profit), Vrutti is a Livelihood Impact Partner which enhances people’s well-being through knowledge, innovation and transformative actions and brings about solutions at a scale that eliminate inequities and create wealth for the marginalised. Vrutti is committed to finding solutions to end poverty, marginalisation and creation of wealth and build resilience for small producers. As social organisation, Vrutti pursues problem solving with entrepreneurial zeal, business acumen, courage to innovate, and consistently challenge traditional practices. Vrutti is passionate about unbiased measurement, self-critique and learning. Vrutti works through result-based planning tools, performance measurement metrics, impact and value for money assessments and use technology as augmenter.</p>
+					<p>A registered Society (not-for-profit), Vrutti is a Livelihood Impact Partner which enhances people&apos;s well-being through knowledge, innovation and transformative actions and brings about solutions at a scale that eliminate inequities and create wealth for the marginalised. Vrutti is committed to finding solutions to end poverty, marginalisation and creation of wealth and build resilience for small producers. As social organisation, Vrutti pursues problem solving with entrepreneurial zeal, business acumen, courage to innovate, and consistently challenge traditional practices. Vrutti is passionate about unbiased measurement, self-critique and learning. Vrutti works through result-based planning tools, performance measurement metrics, impact and value for money assessments and use technology as augmenter.</p>
 					<p><a className="directions" href="https://vruttiimpactcatalysts.org/" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
-					<img src={require('../img/vrutti-img.jpg')} alt="Vrutti Image" />
+					<img src={require('../img/vrutti-img.jpg')} alt="Vrutti" />
 				</div>
 			</div>
 			<div className="organisation-single flex-row-wrap">
@@ -84,7 +91,7 @@ const Organisation = () => {
 					<p><a className="directions" href="https://fuzhio.org/" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
-					<img src={require('../img/fuzhio-img.jpg')} alt="Fuzhio Image" />
+					<img src={require('../img/fuzhio-img.jpg')} alt="Fuzhio" />
 				</div>
 			</div>
 			<div className="organisation-single flex-row-wrap">
@@ -98,7 +105,7 @@ const Organisation = () => {
 					<p><a className="directions" href="https://greenfoundation.in/" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
-					<img src={require('../img/Feature-Image-1.png')} alt="Fuzhio Image" />
+					<img src={require('../img/Feature-Image-1.png')} alt="Fuzhio" />
 				</div>
 			</div>
 			<div className="organisation-single flex-row-wrap">
@@ -109,11 +116,11 @@ const Organisation = () => {
 					<h4>Upfront</h4>
 					<h5>(established in 2022)</h5>
 					<p>Upfront works with front line workers and the “systems” by changing mindsets, behaviours and practices; improving skills, financial security, processes and services; building agency, ensuring voices and choices; and establishing partnerships and collaborations.</p>
-					<p>Creating a positive impact on the workers’ ecosystem by leveraging a systems change approach while ensuring knowledge, skills (personal and professional), and services (health and wealth) through a platform approach that aggregates solutions and providers.</p>
+					<p>Creating a positive impact on the workers&apos; ecosystem by leveraging a systems change approach while ensuring knowledge, skills (personal and professional), and services (health and wealth) through a platform approach that aggregates solutions and providers.</p>
 					<p><a className="directions" href="https://upfront.global/" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
-					<img src={require('../img/Feature-Image.png')} alt="Fuzhio Image" />
+					<img src={require('../img/Feature-Image.png')} alt="Fuzhio" />
 				</div>
 			</div>
 		</div>

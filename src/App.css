@@ -737,6 +737,24 @@ html, body, h1,h2,h3,h4,h5{
   .container {
     padding: 0px;
   }
+  .fp-about .container {
+    padding: 40px 0 0 0;
+  }
+  .fp-about .circle-image {
+    display: none;
+  }
+  .fp-about .circle-content {
+    position: static;
+    margin: 0 auto;
+    max-width: 330px;
+    max-height: 330px;
+    width: calc(100vw - 82px);
+    height: calc(100vw - 82px);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(25,29,66,.68);
+  }
   .footer-contactus .container {
     width: 100%;
     padding: 0px;

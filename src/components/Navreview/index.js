@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 const Navreview = () => {
 
 	const [navbar, setNavbar] = useState(false)
-	const [navbarLogo, setNavbarLogo] = useState(false)
+	//const [navbarLogo, setNavbarLogo] = useState(false)
 
 	const changeBackground = () => {
 		//console.log(window.scrollY)
@@ -26,19 +26,19 @@ const Navreview = () => {
 		<Nav className={navbar ? "navbar colorChange" : "navbar"}>
 			<Bars />
 			<NavMenu>
-				<NavLink to='/'>
+				<NavLink to='/overview'>
 					WHO ARE WE
 				</NavLink>
-				<NavLink to='/organisation'>
+				<NavLink to='#whatwedo'>
 					WHAT WE DO
 				</NavLink>
-				<NavLink to='/partners'>
+				<NavLink to='/overview'>
 					WHERE WE WORK
 				</NavLink>
-				<NavLink to='https://communityactioncollab.org' target='_blank'>
+				<NavLink to='/overview'>
 					OUR TEAM
 				</NavLink>
-				<NavLink to='/contact'>
+				<NavLink to='/overview'>
 					<Button style={{backgroundColor:'#4F3475',border:'1px solid #9179B3'}}>Conatct Us</Button>
 				</NavLink>
 			</NavMenu>

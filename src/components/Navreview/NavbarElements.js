@@ -25,7 +25,7 @@ padding: 0 2rem;
 height: 100%;
 cursor: pointer;
 &.active {
-	color: #f30404;
+	color: #fff;
 }
 `;
 

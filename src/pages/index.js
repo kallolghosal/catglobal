@@ -8,10 +8,17 @@ import { Wwd } from '../components/Wwd';
 import { Fpdetails } from '../components/fpdetails';
 import { Contactus } from '../components/contactus';
 import { Mainfooter } from '../components/mainfooter';
+import { MetaTags } from 'react-meta-tags';
 
 const Home = () => {
 	return (
 		<>
+		<MetaTags>
+            <title>Catalyst Global | Home</title>
+            <meta name="description" content="Some description." />
+            <meta property="og:title" content="MyApp" />
+            <meta property="og:image" content="path/to/image.jpg" />
+        </MetaTags>
 		<div className="main-header">
 			<Navbar />
 		</div>
