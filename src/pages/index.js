@@ -8,17 +8,20 @@ import { Wwd } from '../components/Wwd';
 import { Fpdetails } from '../components/fpdetails';
 import { Contactus } from '../components/contactus';
 import { Mainfooter } from '../components/mainfooter';
-import { MetaTags } from 'react-meta-tags';
+import Meta from '../components/meta';
 
 const Home = () => {
+
+	const title = "Platform that promotes the health & wealth of the vulnerable";
+	const desc ="A social enterprise and development platform, Catalyst Group works towards promoting health and wealth of vulnerable communities";
+	const url ="https://catalysts.global/";
+	//const banner ="https://catalysts.global/wp-content/uploads/2019/08/cg-facebook.jpg";
+	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
+
+
 	return (
 		<>
-		<MetaTags>
-            <title>Catalyst Global | Home</title>
-            <meta name="description" content="Some description." />
-            <meta property="og:title" content="MyApp" />
-            <meta property="og:image" content="path/to/image.jpg" />
-        </MetaTags>
+		<Meta title={title} desc={desc} url={url} banner={banner} />
 		<div className="main-header">
 			<Navbar />
 		</div>

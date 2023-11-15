@@ -3,17 +3,18 @@ import Navbar from '../components/Navbar';
 import { Container } from 'react-bootstrap';
 import Contactus from '../components/contactus';
 import Mainfooter from '../components/mainfooter';
-import { MetaTags } from 'react-meta-tags';
+import Meta from '../components/meta';
 
 const Organisation = () => {
+
+	const title = 'Title';
+	const desc = 'Description';
+	const url = 'URL';
+	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
+
 	return (
 		<>
-		<MetaTags>
-            <title>Catalyst Global | Organisations</title>
-            <meta name="description" content="Some description." />
-            <meta property="og:title" content="MyApp" />
-            <meta property="og:image" content="path/to/image.jpg" />
-        </MetaTags>
+		<Meta title={title} desc={desc} url={url} banner={banner} />
 		<div className="main-header" style={{ backgroundColor: '#000' }}>
 			<Navbar />
 		</div>

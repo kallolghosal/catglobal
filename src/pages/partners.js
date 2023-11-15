@@ -7,10 +7,18 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
+import Meta from '../components/meta';
 
 const Partners = () => {
+	const title = 'Title';
+	const desc = 'Description';
+	const url = 'URL';
+	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
+
 	return (
 		<>
+
+		<Meta title={title} desc={desc} url={url} banner={banner} />
 		<div className="main-header" style={{ backgroundColor: '#000' }}>
 			<Navbar />
 		</div>
