@@ -4,7 +4,6 @@ import ImpactBanner from "../components/ImpactBanner";
 import '../App.css';
 import Navreview from "../components/Navreview";
 import WhatWeDo from "../components/whatwedo";
-import { MetaTags } from "react-meta-tags";
 import Meta from "../components/meta";
 
 const Overview = () => {
