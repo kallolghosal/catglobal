@@ -33,7 +33,7 @@ export class Organisationsec extends Component {
                         <div className="organisation-single wow fadeIn slick-slide slick-cloned">
                             <div className="organisation-logo-div-1"><img src={vrutilogo} alt="Vruti Logo" width={170} /></div>
                             <div className="organisation-details">
-                                <p>A registered Society (not-for-profit), Vrutti is a Livelihood Impact Partner which enhances people’s well-being through knowledge, innovation and transformative actions and brings about solutions at a scale that eliminate inequities and create wealth for the </p>
+                                <p>A registered Society (not-for-profit), Vrutti is a Livelihood Impact Partner which enhances people&apos;s well-being through knowledge, innovation and transformative actions and brings about solutions at a scale that eliminate inequities and create wealth for the </p>
                                 <p><a href="https://vruttiimpactcatalysts.org/" target="blank" rel="noreferrer"> Visit Website </a></p>
                             </div>
                             <a href="https://vruttiimpactcatalysts.org/" target="_blank" rel="noreferrer" className="organisation-readmore">READ MORE</a>
@@ -65,7 +65,7 @@ export class Organisationsec extends Component {
                         <div className="organisation-single wow fadeIn slick-slide slick-cloned">
                             <div className="organisation-logo-div-1"><img src={swasti} alt="Swasti Logo" width={170} /></div>
                             <div className="organisation-details">
-                                <p>A registered Society (not-for-profit), Swasti – The Health Catalyst – is a health resource centre.Which achieves public health outcomes for the marginalised, through the delivery of end-to-end solutions as well as short and long term support and facilitation,</p>
+                                <p>A registered Society (not-for-profit), Swasti &mdash; The Health Catalyst &mdash; is a health resource centre.Which achieves public health outcomes for the marginalised, through the delivery of end-to-end solutions as well as short and long term support and facilitation,</p>
                                 <p><a href="https://swastihc.org" className="directions" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
                             </div>
                             <a href="https://swastihc.org/" target="_blank" rel="noreferrer" className="organisation-readmore">READ MORE</a>
