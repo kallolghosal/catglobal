@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import img1 from '../img/Highcompressed_30743360.jpg';
 import img2 from '../img/Highcompressed_30637766.jpg';
 import img3 from '../img/circle-image3.jpg';

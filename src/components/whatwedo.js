@@ -101,11 +101,11 @@ export default class WhatWeDo extends Component {
                 <p>We work across the domains of livelihood, health, and Wellbeing for the Workforce with deep experience in policy, research, implementation, monitoring, capacity building, strategy, and documentation. We have been working across India and have a global footprint in 25 countries.</p>
                 <Container>
                     <Row>
-                        <Col><a href="https://greenfoundation.in" target="_blank" rel="noreferrer"><img src={Green} alt="Green Foundation" /></a></Col>
-                        <Col><a href="https://swasti.org" target="_blank" rel="noreferrer"><img src={Swasti} alt="Swasti" /></a></Col>
-                        <Col><a href="https://vruttiimpactcatalysts.org/" target="_blank" rel="noreferrer"><img src={Vrotti} alt="Vrotti" /></a></Col>
-                        <Col><a href="https://communityactioncollab.org/" target="_blank" rel="noreferrer"><img src={CAC} alt="CAC" /></a></Col>
-                        <Col><a href="https://upfront.global/" target="_blank" rel="noreferrer"><img src={Upfront} alt="Upfront" /></a></Col>
+                        <Col><a href="https://greenfoundation.in" target="_blank" rel="noopener noreferrer"><img src={Green} alt="Green Foundation" /></a></Col>
+                        <Col><a href="https://swasti.org" target="_blank" rel="noopener noreferrer"><img src={Swasti} alt="Swasti" /></a></Col>
+                        <Col><a href="https://vruttiimpactcatalysts.org/" target="_blank" rel="noopener noreferrer"><img src={Vrotti} alt="Vrotti" /></a></Col>
+                        <Col><a href="https://communityactioncollab.org/" target="_blank" rel="noopener noreferrer"><img src={CAC} alt="CAC" /></a></Col>
+                        <Col><a href="https://upfront.global/" target="_blank" rel="noopener noreferrer"><img src={Upfront} alt="Upfront" /></a></Col>
                     </Row>
                 </Container>
             </Container>

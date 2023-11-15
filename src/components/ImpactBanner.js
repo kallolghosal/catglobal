@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import logo from '../img/icf_logo_icon.svg';
 
 export class ImpactBanner extends Component {
