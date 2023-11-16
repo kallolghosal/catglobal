@@ -1,10 +1,11 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
-const  Meta = ({title, desc, url, banner}) => {
+const Meta = ({title, desc, url, banner}) => {
 
-    return(
+    return (
 
-        <>
+        <Helmet>
             <title>{title}</title>
             <meta name="title" content={title} />
             <meta name="description" content={desc} />
@@ -26,12 +27,10 @@ const  Meta = ({title, desc, url, banner}) => {
             <meta property="twitter:title" content={title} />
             <meta property="twitter:description" content={desc} />
             <meta property="twitter:image" content={banner} />
-        </>
+        </Helmet>
 
     )
 
 }
-
-
 
 export default Meta;
