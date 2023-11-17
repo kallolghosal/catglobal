@@ -725,6 +725,109 @@ html, body, h1,h2,h3,h4,h5{
   background-color: #fff;
   color: #4F3475;
 }
+/* Overview page CSS */
+.overview-banner {
+  background-image: url('./img/hero-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.overview-banner .banner-txt {
+  align-content: center;
+  align-items: center;
+  position: relative;
+  vertical-align: middle;
+}
+.overview-banner .fp-hero-center h2 {
+  font-size: 90px;
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+}
+.overview-banner .fp-hero-center p {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  padding: 0 150px 0 150px;
+}
+.whitebox {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 100px;
+  box-shadow: 3px 2px #ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 12px 0 12px;
+}
+.bg-black {
+  background-color: #000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.bg-blue {
+  background-color: #D6EEE8;
+  padding: 20px;
+}
+.bg-white {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.bg-white h2 {
+  display: inline;
+  background-color: #D6EEE8;
+  padding: 8px 18px;
+}
+.imgalignmiddle {
+  display: block;
+  margin: 10px auto;
+}
+.bg-swasti {
+  background-color: #004A8D;
+  padding: 20px;
+}
+.bg-swasti h2 {
+  background-color: #ED0C6E2F;
+  display: inline;
+  padding: 8px 18px;
+}
+.bg-vrutti {
+  background-color: #E3B45F;
+  padding: 20px;
+}
+.bg-vrutti h2 {
+  background-color: #E3B45F;
+  display: inline;
+  padding: 8px 18px;
+}
+.vruttibox {
+  border: 1px solid #E3B45F;
+  padding: 28px;
+  margin-top: 40px;
+}
+.bg-fuzhio {
+  background-color: #BAD46F;
+  padding: 20px;
+}
+.bg-fuzhio h2 {
+  background-color: #BAD46F;
+  padding: 8px 18px;
+  display: inline;
+}
+.bg-greenfn {
+  background-color: #FFD590;
+  padding: 20px;
+}
+.bg-greenfn h2 {
+  background-color: #FFD590;
+  padding: 8px 18px;
+}
+
+/* Overview page CSS ends */
 
 @media (max-width: 576px) { 
   .flex-row-wrap{
@@ -776,5 +879,9 @@ html, body, h1,h2,h3,h4,h5{
   }
   .container img {
     margin-bottom: 10px;
+  }
+  .whitebox {
+    display: flex;
+    flex-direction: column;
   }
 }

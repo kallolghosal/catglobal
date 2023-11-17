@@ -1,13 +1,15 @@
 import React from "react";
-import Footer from '../components/mainfooter';
-import ImpactBanner from "../components/ImpactBanner";
+import OverviewBanner from "../components/OverviewBanner";
 import '../App.css';
-import Navreview from "../components/Navreview";
-import WhatWeDo from "../components/whatwedo";
 import Meta from "../components/meta";
+import CmsBlock from "../components/cmsblock";
+import SwastiBlock from "../components/swastiblock";
+import VruttiBlock from "../components/vruttiblc";
+import FuzhioBlock from "../components/fuzhioblc";
+import GreenFnBlock from "../components/greenFnBlock";
 
 const Overview = () => {
-    const title = 'Title';
+    const title = 'Catalyst Global Overview';
 	const desc = 'Description';
 	const url = 'URL';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
@@ -15,12 +17,12 @@ const Overview = () => {
     return (
         <>
         <Meta title={title} desc={desc} url={url} banner={banner} />
-        <div className="main-header" style={{ backgroundColor: '#000' }}>
-			<Navreview />
-		</div>
-        <ImpactBanner />
-        <WhatWeDo />
-        <Footer />
+        <OverviewBanner />
+        <CmsBlock />
+        <SwastiBlock />
+        <VruttiBlock />
+        <FuzhioBlock />
+        <GreenFnBlock />
         </>
     );
 };

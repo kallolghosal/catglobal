@@ -46,7 +46,7 @@ const Organisation = () => {
 					<h4>Impact Catalyst Foundation (ICF)</h4>
 					<h5>(established in 1994)</h5>
 					<p>is a US public charity that is part of the Catalyst Group of organisations, headquartered in India. The Catalyst Group was founded in 1994 and is a social enterprise platform focused on the promotion of the health and wealth of vulnerable communities. Our work has spanned over 25 countries across Asia and Africa in multiple domains, including health, livelihood, and climate change.</p>
-					<p><a className="directions" href="/overview" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
+					<p><a className="directions" href="/impact-catalyst-foundation-icf" target="blank" rel="noopener noreferrer"> Visit Website </a></p>
 				</div>
 				<div className="organisation-featuredimage w-101">
 					<img src={require('../img/build_synergies.png')} alt="CMS" />

@@ -7,6 +7,7 @@ import Partners from './pages/partners';
 import Organisation from './pages/organisation';
 import Cac from './pages/cac';
 import Overview from './pages/overview';
+import ImpactIcf from './pages/impacticf';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 				<Route path='/' exact element={<Home />} />
 				<Route path='/partners' element={<Partners />} />
 				<Route path='/organisation' element={<Organisation />} />
+				<Route path='/impact-catalyst-foundation-icf' element={<ImpactIcf />} />
 				<Route path='/overview' element={<Overview />} />
 				<Route path='/cac' element={<Cac />} />
 			</Routes>
