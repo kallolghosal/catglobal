@@ -826,6 +826,22 @@ html, body, h1,h2,h3,h4,h5{
   background-color: #FFD590;
   padding: 8px 18px;
 }
+.bg-upfront {
+  border: 2px solid #fff;
+  padding: 20px;
+}
+.bg-upfront h2 {
+  background-color: #E0343D;
+  padding: 8px 18px;
+  color: #fff;
+}
+.redborderbox {
+  border: 1px solid #e2005b;
+  padding: 18px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 
 /* Overview page CSS ends */
 

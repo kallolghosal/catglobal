@@ -7,6 +7,7 @@ import SwastiBlock from "../components/swastiblock";
 import VruttiBlock from "../components/vruttiblc";
 import FuzhioBlock from "../components/fuzhioblc";
 import GreenFnBlock from "../components/greenFnBlock";
+import UpfrontBlock from "../components/upfrontblc";
 
 const Overview = () => {
     const title = 'Catalyst Global Overview';
@@ -23,6 +24,7 @@ const Overview = () => {
         <VruttiBlock />
         <FuzhioBlock />
         <GreenFnBlock />
+        <UpfrontBlock />
         </>
     );
 };
