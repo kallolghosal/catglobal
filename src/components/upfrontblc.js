@@ -10,6 +10,9 @@ import Img36 from '../img/Image-36.png';
 import Img37 from '../img/Image-37.png';
 import Img38 from '../img/Image-38.png';
 import Img39 from '../img/Image-39.png';
+import Fist from '../img/fist.png';
+import Hands from '../img/hands.png';
+import Palm from '../img/palms.png';
 
 export default class UpfrontBlock extends Component {
     render () {
@@ -90,7 +93,36 @@ export default class UpfrontBlock extends Component {
                             </Col>
                         </Row>
                         <br />
-                        <div className="redborderbox"></div>
+                        <Row className="redborderbox">
+                            <Col md={4} style={{borderRight:'1px solid red'}}>
+                                <img src={Fist} alt="Icon Fist" width={'auto'} height={'70px'} />
+                                <h4>Workforce empowerment</h4><br /><br />
+                                <ul>
+                                    <li>Building voice &amp; agency</li>
+                                    <li>Access to resources, products &amp; services</li>
+                                    <li>Research &amp; evaluation</li>
+                                </ul>
+                            </Col>
+                            <Col md={4} style={{borderRight:'1px solid red'}}>
+                                <img src={Hands} alt="Icon Fist" width={'auto'} height={'70px'} />
+                                <h4>Enabling safe &amp; inclusive systems</h4><br /><br />
+                                <ul>
+                                    <li>Strengthen workplace systems</li>
+                                    <li>Aggregation of services &amp; solutions</li>
+                                    <li>Building capacities &amp; perspectives</li>
+                                </ul>
+                            </Col>
+                            <Col md={4}>
+                                <img src={Palm} alt="Icon Fist" width={'auto'} height={'70px'} />
+                                <h4>Collaborative, ecosystem-based &amp; worker-centric approach</h4><br /><br />
+                                <ul>
+                                    <li>Collaborations</li>
+                                    <li>Partnerships</li>
+                                    <li>Policy shaping</li>
+                                    <li>Advocacy</li>
+                                </ul>
+                            </Col>
+                        </Row>
                     </Container>
                 </Container>
             </Container>

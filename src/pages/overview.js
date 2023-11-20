@@ -8,6 +8,9 @@ import VruttiBlock from "../components/vruttiblc";
 import FuzhioBlock from "../components/fuzhioblc";
 import GreenFnBlock from "../components/greenFnBlock";
 import UpfrontBlock from "../components/upfrontblc";
+import CatalystBlock from "../components/catalystblc";
+import Ecosystem from "../components/ecosystem";
+import CACollab from "../components/cacollab";
 
 const Overview = () => {
     const title = 'Catalyst Global Overview';
@@ -25,6 +28,9 @@ const Overview = () => {
         <FuzhioBlock />
         <GreenFnBlock />
         <UpfrontBlock />
+        <CatalystBlock />
+        <Ecosystem />
+        <CACollab />
         </>
     );
 };
