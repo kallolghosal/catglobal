@@ -79,8 +79,12 @@ export default class CACollab extends Component {
                                 
                             </Col>
                         </Row>
+                        
                     </Container>
                 </Container>
+                    <div className="footblock">
+                        <a href="mailto:contactus@catalysts.org">contactus@catalysts.org</a>
+                    </div>
             </Container>
         )
     }

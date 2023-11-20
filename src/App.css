@@ -893,6 +893,16 @@ html, body, h1,h2,h3,h4,h5{
   position: relative;
   top: -10px;
 }
+.bg-black .footblock {
+  margin: 30px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+}
+.footblock a {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* Overview page CSS ends */
 
