@@ -40,7 +40,7 @@ const Navbar = () => {
 	return (
 		<Nav className={navbar ? "navbar colorChange" : "navbar"}>
 			<Bars />
-			<img src={logo} alt="Catalyst Global Logo" />
+			<a href='/'><img src={logo} alt="Catalyst Global Logo" /></a>
 			<NavMenu>
 				<NavLink to='/'>
 					Home

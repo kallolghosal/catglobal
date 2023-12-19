@@ -34,7 +34,7 @@ html, body, h1,h2,h3,h4,h5{
   background-image: -moz-linear-gradient(left,#e2005b 0,#622f88 33%,#004534 66%,#e8aa32 100%); */
   /* background-image: -webkit-linear-gradient(left,#e2005b 0,#622f88 33%,#004534 66%,#e8aa32 100%); */
   background-image: linear-gradient(to right,#e2005b 0,#622f88 33%,#004534 66%,#e8aa32 100%);
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .fp-hero .bx-wrapper {
   z-index: 1;
@@ -70,23 +70,11 @@ html, body, h1,h2,h3,h4,h5{
   -webkit-transform: translate(0,-50%);
   transform: translate(0,-50%);
 }
-.fp-hero .fp-hero-center {
-  top: 50%;
-  z-index: 999;
-  width: 100%;
-  margin: 0 auto;
-  position: absolute;
-  text-align: center;
-  -moz-transform: translate(0,-50%);
-  -ms-transform: translate(0,-50%);
-  -webkit-transform: translate(0,-50%);
-  transform: translate(0,-50%);
-}
-.fp-hero .fp-hero-center img {
+.fp-hero-center img {
   width: auto;
   height: 115px;
 }
-.fp-hero .fp-hero-center p {
+.fp-hero-center p {
   width: 100%;
   color: #fff;
   margin: 0 auto;
@@ -96,13 +84,11 @@ html, body, h1,h2,h3,h4,h5{
   padding-top: 31px;
   text-shadow: 2px 2px rgba(0,0,0,.5);
 }
-.fp-hero a {
+.fp-hero-center a {
   position: absolute;
   opacity: .8;
   z-index: 9;
   width: 100%;
-  bottom: 45px;
-  height: 40px;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
@@ -115,8 +101,11 @@ html, body, h1,h2,h3,h4,h5{
   -webkit-border-radius: 20px;
   border-radius: 20px;
   border: none;
+  padding: 6px;
+  text-decoration: none;
+  top: 400px;
 }
-.fp-hero a:hover{
+.fp-hero-center a:hover{
   background-color: #191d42;
 }
 
