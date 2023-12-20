@@ -14,7 +14,7 @@ export default class SwastiBlock extends Component {
                             <img src={SwastiLogo} alt="Swasti Logo" width={'240px'} height={'auto'} />
                         </Col>
                         <Col md={6} style={{textAlign:'right'}}>
-                            <Button variant="danger" href="https://swasti.org/" target="_blank" rel="noopener noreferrer">Visit Site</Button>
+                            <Button href="https://swasti.org/" target="_blank" style={{backgroundColor:'#ED0C6E', border:'none'}} rel="noopener noreferrer">Visit Site</Button>
                         </Col>
                     </Row>
                     <Container className="bg-white">

@@ -13,7 +13,7 @@ export default class FuzhioBlock extends Component {
                             <img src={FuzhioLogo} alt="Fuzhio Logo" height={80} width={'auto'} />
                         </Col>
                         <Col md={6} style={{textAlign:'right'}}>
-                            <Button variant="danger" href="https://fuzhio.org/" target="_blank" rel="noopener noreferrer">Visit Site</Button>
+                            <Button href="https://fuzhio.org/" target="_blank" style={{backgroundColor:'#6E180C',border:'none'}} rel="noopener noreferrer">Visit Site</Button>
                         </Col>
                     </Row>
                     <Container className="bg-white">

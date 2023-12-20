@@ -14,7 +14,7 @@ export default class CatalystBlock extends Component {
                             <img src={CGlogo} alt="Upfront Logo" height={70} width={'auto'} />
                         </Col>
                         <Col md={6} style={{textAlign:'right'}}>
-                            <Button variant="primary" href="https://catalysts.global" target="_blank" rel="noopener noreferrer">Visit Site</Button>
+                            <Button href="https://catalysts.global" target="_blank" style={{backgroundColor:'#191D42',border:'none'}} rel="noopener noreferrer">Visit Site</Button>
                         </Col>
                     </Row>
                     <Container className="bg-white">
