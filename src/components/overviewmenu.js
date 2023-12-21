@@ -23,14 +23,14 @@ export default function Overviewmenu() {
         </Offcanvas.Header>
         <Offcanvas.Body className='bg-dark text-center'>
           <ul className='overviecanvas'>
-            <li><a href=''>CMS</a></li>
-            <li><a href=''>Swasti</a></li>
-            <li><a href=''>Vrutti</a></li>
-            <li><a href=''>Fuzhio</a></li>
-            <li><a href=''>GREEN Foundation</a></li>
-            <li><a href=''>Catalyst Foundation</a></li>
-            <li><a href=''>Upfront</a></li>
-            <li><a href=''>Community Action Collab</a></li>
+            <li><a href='#'>CMS</a></li>
+            <li><a href='#'>Swasti</a></li>
+            <li><a href='#'>Vrutti</a></li>
+            <li><a href='#'>Fuzhio</a></li>
+            <li><a href='#'>GREEN Foundation</a></li>
+            <li><a href='#'>Catalyst Foundation</a></li>
+            <li><a href='#'>Upfront</a></li>
+            <li><a href='#'>Community Action Collab</a></li>
           </ul>
         </Offcanvas.Body>
       </Offcanvas>
