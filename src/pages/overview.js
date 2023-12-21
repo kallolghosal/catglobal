@@ -11,6 +11,7 @@ import UpfrontBlock from "../components/upfrontblc";
 import CatalystBlock from "../components/catalystblc";
 import Ecosystem from "../components/ecosystem";
 import CACollab from "../components/cacollab";
+import Overviewmenu from "../components/overviewmenu";
 
 const Overview = () => {
     const title = 'Catalyst Global Overview';
@@ -21,6 +22,7 @@ const Overview = () => {
     return (
         <>
         <Meta title={title} desc={desc} url={url} banner={banner} />
+        <Overviewmenu />
         <OverviewBanner />
         <CmsBlock />
         <SwastiBlock />
