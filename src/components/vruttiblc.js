@@ -17,7 +17,7 @@ export default class VruttiBlock extends Component {
                             <img src={VruttiLogo} alt="Vrutti Logo" width={160} height={'auto'} />
                         </Col>
                         <Col md={6} style={{textAlign:'right'}}>
-                            <Button variant="success" href="https://swasti.org/" target="_blank" rel="noopener noreferrer">Visit Site</Button>
+                            <Button variant="success" href="https://vruttiimpactcatalysts.org/" target="_blank" rel="noopener noreferrer">Visit Site</Button>
                         </Col>
                     </Row>
                     <Container className="bg-white">

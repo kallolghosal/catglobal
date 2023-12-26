@@ -21,7 +21,7 @@ export default class UpfrontBlock extends Component {
                 <Container className="bg-upfront">
                     <Row>
                         <Col md={6}>
-                            <img src={UpfrontLogo} alt="Upfront Logo" height={70} width={'auto'} />
+                            <img src={UpfrontLogo} alt="Upfront Logo" height={70} width={'auto'} id="upfront" />
                         </Col>
                         <Col md={6} style={{textAlign:'right'}}>
                             <Button variant="danger" href="https://upfront.global" target="_blank" rel="noopener noreferrer">Visit Site</Button>

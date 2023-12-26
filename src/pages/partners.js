@@ -10,9 +10,9 @@ import '../App.css';
 import Meta from '../components/meta';
 
 const Partners = () => {
-	const title = 'Title';
-	const desc = 'Description';
-	const url = 'URL';
+	const title = 'Catalyst Global Partners';
+	const desc = 'Catalyst Foundation is a social enterprise platform that seeks to promote health and wealth of vulnerable communities';
+	const url = 'https://catalysts.global/partners';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
 
 	return (

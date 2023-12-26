@@ -20,7 +20,7 @@ export default class CACollab extends Component {
                             <img src={CAcollabLogo} alt="CAS Logo" width={220} height={'auto'} />
                         </Col>
                         <Col md={6} style={{textAlign:'right'}}>
-                            <Button variant="primary" href="https://communityactioncollab.org.in/" target="_blank" rel="noopener noreferrer">Visit Site</Button>
+                            <Button variant="primary" href="https://communityactioncollab.org/" target="_blank" rel="noopener noreferrer">Visit Site</Button>
                         </Col>
                     </Row>
                     <Container className="bg-white">
@@ -79,7 +79,6 @@ export default class CACollab extends Component {
                                 
                             </Col>
                         </Row>
-                        
                     </Container>
                 </Container>
                     <div className="footblock">

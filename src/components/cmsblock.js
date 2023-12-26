@@ -13,7 +13,7 @@ export default class CmsBlock extends Component {
                 <Container className="bg-blue">
                     <Row>
                         <Col md={6}>
-                            <img src={CMSlogo} alt="CMS Logo" width={120} height={'auto'} />
+                            <img src={CMSlogo} alt="CMS Logo" width={120} height={'auto'} id="cms" />
                         </Col>
                         <Col md={6} style={{textAlign:'right'}}>
                             <Button href="https://cms.org.in/" target="_blank" rel="noopener noreferrer" style={{backgroundColor:'#80499D', border:'none'}}>Visit Site</Button>
