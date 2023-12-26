@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-const Meta = ({title, desc, url, banner}) => {
+const Meta = ({title, desc, url, banner,keyword}) => {
 
     return (
 
@@ -9,6 +9,7 @@ const Meta = ({title, desc, url, banner}) => {
             <title>{title}</title>
             <meta name="title" content={title} />
             <meta name="description" content={desc} />
+            <meta name="keyword" content={keyword} />
 
             <meta property="og:type" content="website" />
             <meta property="og:url" content={url} />

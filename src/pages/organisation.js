@@ -7,14 +7,15 @@ import Meta from '../components/meta';
 
 const Organisation = () => {
 
-	const title = 'Catalyst Global Organizations';
-	const desc = 'Catalyst Foundation is a social enterprise platform that seeks to promote health and wealth of vulnerable communities';
+	const title = 'Dedicated to enhancing the lives of the vulnerable';
+	const desc = 'Learn more about the Catalyst Group of Organisations and how each brand is dedicated to the betterment of the society and in enhancing the lives of vulnerable communities.';
 	const url = 'https://catalysts.global/organisation';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
+	const keyword = 'social development,Social inequities,vulnerable population,enterprise social network';
 
 	return (
 		<>
-		<Meta title={title} desc={desc} url={url} banner={banner} />
+		<Meta title={title} desc={desc} url={url} banner={banner} keyword={keyword} />
 		<div className="main-header" style={{ backgroundColor: '#000' }}>
 			<Navbar />
 		</div>

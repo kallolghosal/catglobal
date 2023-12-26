@@ -5,7 +5,7 @@ import logo from '../img/icf_logo_icon.svg';
 export class ImpactBanner extends Component {
     render () {
         return (
-            <Container fluid style={ { margin:0, padding:0 } }>
+            <Container fluid style={ { margin:0, padding:0 } } className="bgimg">
                 <div className="fp-hero">
                     <div className="fp-hero-center">
                         <img src={logo} alt="Impact Global Logo" />

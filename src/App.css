@@ -1067,3 +1067,9 @@ html, body, h1,h2,h3,h4,h5{
 .overviecanvas li a:hover {
   text-decoration: underline;
 }
+.bgimg {
+  background-image: url('./img/hands-bg.jpeg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}

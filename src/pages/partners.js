@@ -10,15 +10,16 @@ import '../App.css';
 import Meta from '../components/meta';
 
 const Partners = () => {
-	const title = 'Catalyst Global Partners';
-	const desc = 'Catalyst Foundation is a social enterprise platform that seeks to promote health and wealth of vulnerable communities';
+	const title = 'Partners that share our vision and passion';
+	const desc = 'Our partners, who share our vision and passion, play a huge role in supporting us in every possible way to ensure we enhance the lives of vulnerable communities.';
 	const url = 'https://catalysts.global/partners';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
+	const keywords = 'social development,Social inequities,vulnerable population,enterprise social network';
 
 	return (
 		<>
 
-		<Meta title={title} desc={desc} url={url} banner={banner} />
+		<Meta title={title} desc={desc} url={url} banner={banner} keyword={keywords} />
 		<div className="main-header" style={{ backgroundColor: '#000' }}>
 			<Navbar />
 		</div>
