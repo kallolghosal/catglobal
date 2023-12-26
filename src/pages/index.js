@@ -17,11 +17,12 @@ const Home = () => {
 	const url ="https://catalysts.global/";
 	//const banner ="https://catalysts.global/wp-content/uploads/2019/08/cg-facebook.jpg";
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
+	const keywords = 'social development,Social inequities,vulnerable population,enterprise social network';
 
 
 	return (
 		<>
-		<Meta title={title} desc={desc} url={url} banner={banner} />
+		<Meta title={title} desc={desc} url={url} banner={banner} keyword={keywords} />
 		<div className="main-header">
 			<Navbar />
 		</div>

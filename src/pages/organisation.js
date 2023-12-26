@@ -11,11 +11,11 @@ const Organisation = () => {
 	const desc = 'Learn more about the Catalyst Group of Organisations and how each brand is dedicated to the betterment of the society and in enhancing the lives of vulnerable communities.';
 	const url = 'https://catalysts.global/organisation';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
-	const keyword = 'social development,Social inequities,vulnerable population,enterprise social network';
+	const keywords = 'social development,Social inequities,vulnerable population,enterprise social network';
 
 	return (
 		<>
-		<Meta title={title} desc={desc} url={url} banner={banner} keyword={keyword} />
+		<Meta title={title} desc={desc} url={url} banner={banner} keyword={keywords} />
 		<div className="main-header" style={{ backgroundColor: '#000' }}>
 			<Navbar />
 		</div>

@@ -18,10 +18,11 @@ const Overview = () => {
 	const desc = 'Description';
 	const url = 'URL';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
+    const keywords = 'social development,Social inequities,vulnerable population,enterprise social network';
 
     return (
         <>
-        <Meta title={title} desc={desc} url={url} banner={banner} />
+        <Meta title={title} desc={desc} url={url} banner={banner} keyword={keywords} />
         <Overviewmenu />
         <OverviewBanner />
         <CmsBlock />
