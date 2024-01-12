@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../../img/catalyst-global-logo.svg';
-import { Nav, NavLink, Bars, NavMenu, } from './NavbarElements';
+import { Nav, NavLink, Bars, NavMenu } from './NavbarElements';
 
 const Navbar = () => {
 
@@ -45,8 +45,8 @@ const Navbar = () => {
 				<NavLink to='/'>
 					Home
 				</NavLink>
-				<NavLink to='/organisation'>
-					Organisation
+				<NavLink to='/organisations'>
+					Organisations
 				</NavLink>
 				<NavLink to='/partners'>
 					Partners
