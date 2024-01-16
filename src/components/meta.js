@@ -1,10 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-59KDHDLRD8");
 
 const Meta = ({title, desc, url, banner,keyword}) => {
 
     return (
-
+        
         <Helmet>
             <title>{title}</title>
             <meta name="title" content={title} />
