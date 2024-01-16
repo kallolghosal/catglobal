@@ -1,12 +1,17 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReactGA from "react-ga4";
-ReactGA.initialize("G-59KDHDLRD8");
+import TagManager from 'react-gtm-module';
 
 const Meta = ({title, desc, url, banner,keyword}) => {
+    const tagManagerArgs = {
+        gtmId: 'GTM-WQKF5JH'
+    }
+    
+    ReactGA.initialize("G-59KDHDLRD8");
+    TagManager.initialize(tagManagerArgs);  
 
     return (
-        
         <Helmet>
             <title>{title}</title>
             <meta name="title" content={title} />
@@ -31,7 +36,6 @@ const Meta = ({title, desc, url, banner,keyword}) => {
             <meta property="twitter:description" content={desc} />
             <meta property="twitter:image" content={banner} />
         </Helmet>
-
     )
 
 }
