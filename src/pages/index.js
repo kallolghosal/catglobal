@@ -19,9 +19,27 @@ const Home = () => {
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
 	const keywords = 'social development,Social inequities,vulnerable population,enterprise social network';
 
+	const schemaData = {
+		"@context": "https://schema.org/",
+		"@type": "WebSite",
+		"name": "catalysts global",
+		"url": "https://catalysts.global/",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://catalysts.global/{search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	};
+
 
 	return (
 		<>
+		<script
+			type="application/ld+json"
+			dangerouslySetInnerHTML={{
+			__html: JSON.stringify(schemaData),
+			}}
+		/>
 		<Meta title={title} desc={desc} url={url} banner={banner} keyword={keywords} />
 		<div className="main-header">
 			<Navbar />

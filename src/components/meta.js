@@ -9,7 +9,7 @@ const Meta = ({title, desc, url, banner,keyword}) => {
     }
     
     ReactGA.initialize("G-59KDHDLRD8");
-    TagManager.initialize(tagManagerArgs);  
+    TagManager.initialize(tagManagerArgs);
 
     return (
         <Helmet>
