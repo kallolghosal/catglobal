@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import Meta from '../components/meta';
+import { Helmet } from 'react-helmet';
 
 const Partners = () => {
 	const title = 'Partners that share our vision and passion';
@@ -30,6 +31,9 @@ const Partners = () => {
 
 	return (
 		<>
+		<Helmet>
+			<link rel="canonical" href="https://catalysts.global/partners" />
+		</Helmet>
 		<script
 			type="application/ld+json"
 			dangerouslySetInnerHTML={{

@@ -12,6 +12,7 @@ import CatalystBlock from "../components/catalystblc";
 import Ecosystem from "../components/ecosystem";
 import CACollab from "../components/cacollab";
 import Overviewmenu from "../components/overviewmenu";
+import { Helmet } from "react-helmet";
 
 const Overview = () => {
     const title = 'Catalyst Global Overview';
@@ -34,6 +35,9 @@ const Overview = () => {
 
     return (
         <>
+        <Helmet>
+            <link rel="canonical" href="https://catalysts.global/overview" />
+        </Helmet>
         <script
 			type="application/ld+json"
 			dangerouslySetInnerHTML={{

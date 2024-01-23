@@ -9,6 +9,7 @@ import { Fpdetails } from '../components/fpdetails';
 import { Contactus } from '../components/contactus';
 import { Mainfooter } from '../components/mainfooter';
 import Meta from '../components/meta';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
 
@@ -34,6 +35,9 @@ const Home = () => {
 
 	return (
 		<>
+		<Helmet>
+			<link rel="canonical" href="https://catalysts.global/" />
+		</Helmet>
 		<script
 			type="application/ld+json"
 			dangerouslySetInnerHTML={{
