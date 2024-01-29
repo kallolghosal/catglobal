@@ -15,8 +15,8 @@ import Overviewmenu from "../components/overviewmenu";
 import { Helmet } from "react-helmet";
 
 const Overview = () => {
-    const title = 'Catalyst Global Overview';
-	const desc = 'Description';
+    const title = 'Overview Guide to Collaborative Solutions for Social Impact';
+	const desc = 'Empower social impact through innovation at The Catalyst Group. Collaborate for effective solutions, accelerating development and achieving impactful results.';
 	const url = 'URL';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
     const keywords = 'social development,Social inequities,vulnerable population,enterprise social network';
