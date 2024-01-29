@@ -14,21 +14,21 @@ export class Infograph extends Component {
                     <div className="fp-about-content">
                         <div className="fp-about-circle-div">
                             <div className="circle-image circle-image1">
-                                <img src={img1} alt="Infograph 1" />
+                                <img src={img1} alt="Infograph 1" width={600} height={600} />
                             </div>
                             <div className="circle-image circle-image2">
-                                <img src={img2} alt="Infograph 2" />
+                                <img src={img2} alt="Infograph 2" width={600} height={600} />
                             </div>
                             <div className="circle-image circle-image3">
-                                <img src={img3} alt="Infograph 3" />
+                                <img src={img3} alt="Infograph 3" width={600} height={600} />
                             </div>
                             <div className="circle-image circle-image4">
-                                <img src={img4} alt="Infograph 4" />
+                                <img src={img4} alt="Infograph 4" width={600} height={600} />
                             </div>
                             <div className="circle-image circle-image5">
-                                <img src={img5} alt="Infograph 5" />
+                                <img src={img5} alt="Infograph 5" width={600} height={600} />
                             </div>
-                            <div className="circle-content">
+                            <div className="circle-content" style={{textAlign:'center'}}>
                                 <p>
                                 Social inequities are growing and societal problems are complex. No single approach can deliver results at a scale. Sustainable change and transformation integrate the strength of the community, efficiency of the market, the power of the state and capacities of the facilitators. Sectoral systems of agriculture, health, education, etc. fundamental to social development, do not sufficiently focus or deliver outcomes for the poor and vulnerable. 
                                 </p>
