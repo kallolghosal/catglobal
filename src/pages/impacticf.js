@@ -7,7 +7,7 @@ import WhatWeDo from "../components/whatwedo";
 import Meta from "../components/meta";
 
 const Impacticf = () => {
-    const title = 'Title';
+    const title = 'Impact Catalyst Global Foundation';
 	const desc = 'Description';
 	const url = 'URL';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
