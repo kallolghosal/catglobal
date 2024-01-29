@@ -7,8 +7,8 @@ import WhatWeDo from "../components/whatwedo";
 import Meta from "../components/meta";
 
 const Impacticf = () => {
-    const title = 'Impact Catalyst Global Foundation';
-	const desc = 'Description';
+    const title = 'Impact Catalyst Foundation: Collaborating for Global Impact';
+	const desc = 'Join the Catalyst Groups mission to promote health, livelihood, and climate change solutions in over 25 countries with the support of Impact Catalyst Foundation (ICF)';
 	const url = 'URL';
 	const banner = 'http://localhost:3000/static/media/Green_foundation_logo.2f0c40f0.png';
     const keywords = 'social development,Social inequities,vulnerable population,enterprise social network';
