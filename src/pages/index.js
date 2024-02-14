@@ -37,6 +37,7 @@ const Home = () => {
 		<>
 		<Helmet>
 			<link rel="canonical" href="https://catalysts.global/" />
+			<meta name="google-site-verification" content="LysyG3zJq4ZnwfQvPHoHcXwGWE6KeUAc7f3e9aGBtW8" />
 		</Helmet>
 		<script
 			type="application/ld+json"
